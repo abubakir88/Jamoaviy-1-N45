@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:ital,wght@0,200;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:ital,wght@0,200;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+.profil-wrapper {
+  width: 100%;
+  height: 450px;
+  margin-top: -30px;
+}
+.profil-wrapper .container .profil-item {
+  width: 1250px;
+  display: flex;
+  justify-content: space-between;
+}
+.profil-wrapper .container .profil-item .profil-card1 {
+  width: 320px;
+  height: 100%;
+}
+.profil-wrapper .container .profil-item .profil-card1 img:hover {
+  transform: scale(1) !important;
+}
+.profil-wrapper .container .profil-item .profil-card1 button {
+  width: 263px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: var(--Yellow, #ffc000);
+  color: var(--Black, #0d0d0d);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+  margin-top: 5px;
+}
+.profil-wrapper .container .profil-item .profil-card2 {
+  width: 320px;
+  height: 100%;
+}
+.profil-wrapper .container .profil-item .profil-card2 label {
+  width: 95%;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-family: sans-serif;
+  text-align: left;
+  padding-left: 5px;
+}
+.profil-wrapper .container .profil-item .profil-card2 input {
+  display: block;
+  width: 95%;
+  height: 45px;
+  border-radius: 6px;
+  border: 1px solid #dbdee7;
+  padding-left: 10px;
+  outline: none;
+}
+.profil-wrapper .container .profil-item .profil-card2 p {
+  color: #ffc000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 16.8px */
+  letter-spacing: 0.4px;
+  padding-top: 5px;
+  text-align: left;
+  padding-left: 5px;
+}
+.profil-wrapper .container .profil-item .profil-card3 {
+  width: 320px;
+  height: 100%;
+}
+.profil-wrapper .container .profil-item .profil-card3 p {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  font-family: sans-serif;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  text-align: left;
+  padding-left: 5px;
+}
+.profil-wrapper .container .profil-item .profil-card3 input {
+  width: 313px;
+  height: 44px;
+  flex-shrink: 0;
+  outline: none;
+  border: 1px solid #dbdee7;
+  padding-left: 10px;
+  border-radius: 6px;
+}
+
+.kuz {
+  position: absolute;
+  margin-top: -35px;
+  right: 40px;
+}
+
+.input {
+  position: relative;
+}
+
+@media screen and (max-width: 1400px) {
+  .profil-wrapper {
+    width: 100%;
+  }
+  .profil-wrapper .container .profil-item {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .profil-wrapper .container .profil-item {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .profil-wrapper .container .profil-item .profil-card3 {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 710px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 695px) {
+  .profil-wrapper .container .profil-item {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .profil-wrapper .container .profil-item .profil-card1 {
+    width: 280px;
+  }
+  .profil-wrapper .container .profil-item .profil-card2 {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 650px) {
+  body {
+    overflow-x: hidden;
+  }
+  .profil-wrapper .container .profil-item {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .profil-wrapper .container .profil-item .profil-card1 {
+    width: 250px;
+  }
+  .profil-wrapper .container .profil-item .profil-card2 {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .profil-wrapper {
+    height: 100%;
+  }
+  .profil-wrapper .container .profil-item {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .profil-wrapper .container .profil-item .profil-card1 {
+    width: 270px;
+  }
+  .profil-wrapper .container .profil-item .profil-card2 {
+    width: 270px;
+    margin-top: 30px;
+  }
+  .profil-wrapper .container .profil-item .profil-card3 {
+    margin-top: 30px;
+    width: 270px;
+  }
+  .profil-wrapper .container .profil-item .profil-card3 input {
+    width: 270px;
+  }
+}
