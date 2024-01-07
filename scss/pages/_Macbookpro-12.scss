@@ -1,0 +1,97 @@
+// main start
+main {
+  margin-top: 140px;
+  text-align: center;
+}
+.hh {
+  color: #000;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 47.6px */
+  letter-spacing: 0.25px;
+}
+.cards img {
+  border-radius: 8px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat, #eee;
+  width: 264px;
+  height: 272px;
+  flex-shrink: 0;
+  margin-top: 24px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card1 h2 {
+  margin-top: 26px;
+  font-family: Montserrat;
+  cursor: pointer;
+}
+.card1 h2:hover {
+  color: #7b7a7a;
+  transition: 0.3s;
+}
+img {
+  transition: transform 0.2s; /* Animation */
+  cursor: pointer;
+}
+img:hover {
+  transform: scale(1.1);
+}
+// main end
+
+@media only screen and (max-width: 1083px) {
+  .cards {
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .cards {
+    margin-left: 180px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .cards {
+    margin-left: 120px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .cards {
+    margin-left: 80px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .cards {
+    margin-left: 45px;
+  }
+}
+@media only screen and (max-width: 645px) {
+  .cards {
+    margin-left: 25px;
+  }
+}
+@media only screen and (max-width: 622px) {
+  .cards {
+    margin-left: 155px;
+  }
+}
+@media only screen and (max-width: 505px) {
+  .cards {
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .cards {
+    margin-left: 80px;
+  }
+}
+@media only screen and (max-width: 310px) {
+  .hh {
+    margin-left: 60px;
+  }
+}
